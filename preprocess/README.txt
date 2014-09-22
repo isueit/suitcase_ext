@@ -20,7 +20,11 @@ Twitter:        http://twitter.com/Omeglicon
 ##### Preprocess Hooks
 ##########################################################################################
 
+<<<<<<< HEAD
 Any custom preprocess functionality can (rather than directly in template.php) be placed
+=======
+Any custom preprocess functionality can (rather than directly in template.php) be placed 
+>>>>>>> 87be89e3ddd547aca1197ea9544e986c3f82a2e7
 in this preprocess folder in a file named as such:
 
 TEMPLATE_preprocess_html() = preprocess-html.inc
@@ -30,10 +34,19 @@ TEMPLATE_preprocess_comment() = preprocess-comment.inc
 TEMPLATE_preprocess_region() = preprocess-region.inc
 etc.
 
+<<<<<<< HEAD
 Inside of your preprocess-HOOK.inc files, you can either directly dump the PHP code as it
 would normally appear INSIDE of a preprocess function, or you can optionally (recommended)
+=======
+Inside of your preprocess-HOOK.inc files, you can either directly dump the PHP code as it 
+would normally appear INSIDE of a preprocess function, or you can optionally (recommended) 
+>>>>>>> 87be89e3ddd547aca1197ea9544e986c3f82a2e7
 wrap the code in a custom hook for Alpha/Omega as such:
 
 function THEMENAME_alpha_preprocess_HOOK(&$vars) {
   // custom functionality here
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 87be89e3ddd547aca1197ea9544e986c3f82a2e7

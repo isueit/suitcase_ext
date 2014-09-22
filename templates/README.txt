@@ -19,8 +19,16 @@ Twitter:        http://twitter.com/Omeglicon
 ##########################################################################################
 
 The templates folder is here to organize any custom templates you have for your subhteme.
+<<<<<<< HEAD
 The HTML5 Starterkit (and subthemes) uses all default templates in the Omega base theme,
 and is why this directory is empty.
 
 Any page, node, etc. templates you need to customize can be copied here, and customized
 accordingly.
+=======
+The HTML5 Starterkit (and subthemes) uses all default templates in the Omega base theme, 
+and is why this directory is empty. 
+
+Any page, node, etc. templates you need to customize can be copied here, and customized 
+accordingly.
+>>>>>>> 87be89e3ddd547aca1197ea9544e986c3f82a2e7
